@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 61px;
+padding-bottom: 61px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 5;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+.icon{
+    border: solid;
+    border-radius: 50%;
+}
+.iconName{
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
